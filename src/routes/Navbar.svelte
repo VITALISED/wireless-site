@@ -17,10 +17,10 @@
 				<a href="/about">About</a>
 			</li>
             <li aria-current={$page.url.pathname === '/blog' ? 'page' : undefined}>
-				<a href="/blog">Thinking Crap</a>
+				<a href="/blog">Thoughts</a>
 			</li>
             <li aria-current={$page.url.pathname === '/projects' ? 'page' : undefined}>
-				<a href="/projects">Stuff</a>
+				<a href="/#">Stuff</a>
 			</li>
         </ul>
     </nav>
